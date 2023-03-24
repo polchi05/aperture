@@ -241,13 +241,3 @@ header nav ul li:last-of-type a{
     border-radius: 50%;
 }
 
-.up_banner{
-    background-color: black;
-    margin-right: 6px;
-    border-radius: 50%;
-}
-footer{
-    height: 42px;
-    padding-right: 10px;
-    padding-left: 4px;
-}
