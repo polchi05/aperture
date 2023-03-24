@@ -313,9 +313,11 @@ header nav ul li:last-of-type a{
 }
 
 .what_we_do .description a{
-    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
     line-height: 20px;
-    letter-spacing: 0.4px;
     color: #000000;
     background-color: #FFFFFF;
     padding: 5px 10px 5px 4px;
@@ -332,4 +334,37 @@ header nav ul li:last-of-type a{
     background-color: black;
     margin-right: 6px;
     display: inline-block;
+}
+
+/*Past clients*/
+
+.past_clients{
+    background: black;
+    padding-top: 113px;
+    padding-bottom: 140px;
+    height: 500px;
+}
+.past_clients .container{
+    margin: auto;
+    max-width: 600px;
+}
+.past_clients .container h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.past_clients .container h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
 }
