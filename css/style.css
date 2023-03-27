@@ -342,7 +342,6 @@ header nav ul li:last-of-type a{
     background: black;
     padding-top: 113px;
     padding-bottom: 140px;
-    height: 500px;
 }
 .past_clients .container{
     margin: auto;
@@ -366,5 +365,16 @@ header nav ul li:last-of-type a{
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
-    margin-bottom: 42px;
+    margin-bottom: 82px;
+}
+.past_clients .description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1168px;
+    margin: auto;
+}
+.past_clients .description a img{
+    width: 100%;
+    display: block;
 }
