@@ -343,10 +343,6 @@ header nav ul li:last-of-type a{
     padding-top: 113px;
     padding-bottom: 140px;
 }
-.past_clients .container{
-    margin: auto;
-    max-width: 600px;
-}
 .past_clients .container h2{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
