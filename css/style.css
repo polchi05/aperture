@@ -61,6 +61,7 @@ header nav ul li:last-of-type a{
     align-items:flex-end;
     padding-bottom: 71px;
     box-sizing: border-box;
+    position: relative;
 }
 .main_banner article{
     max-width: 580px;
@@ -99,6 +100,7 @@ header nav ul li:last-of-type a{
     align-items:center;
     padding-right: 62px;
     box-sizing: border-box;
+    position: relative;
 }
 .sunset article{
     max-width: 298px;
@@ -131,6 +133,7 @@ header nav ul li:last-of-type a{
     align-items:center;
     padding-right: 87px;
     box-sizing: border-box;
+    position: relative;
 }
 .leaves article{
     max-width: 273px;
@@ -163,6 +166,7 @@ header nav ul li:last-of-type a{
     align-items:center;
     padding-right: 119px;
     box-sizing: border-box;
+    position: relative;
 }
 .starfall article{
     max-width: 254px;
@@ -260,6 +264,7 @@ header nav ul li:last-of-type a{
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 15px;
 }
 .what_we_do .container h4{
     font-family: 'Poppins', sans-serif;
@@ -269,6 +274,7 @@ header nav ul li:last-of-type a{
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
+    margin-bottom: 42px;
 }
 .what_we_do .cards{
     justify-content: space-between;
@@ -345,8 +351,6 @@ header nav ul li:last-of-type a{
 }
 .past_clients .container h2{
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 40px;
     line-height: 42px;
     text-align: center;
@@ -355,8 +359,6 @@ header nav ul li:last-of-type a{
 }
 .past_clients .container h3{
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 30px;
     text-align: center;
@@ -374,4 +376,107 @@ header nav ul li:last-of-type a{
     width: 100%;
     display: block;
 }
+/*Tools*/
 
+.tools{
+    position: relative;
+    min-height: 540px;
+    background-color: black;
+}
+.tools .container{
+    margin: auto;
+    max-width: 1240px;
+    min-height: 540px;
+    display: flex;
+    align-items: center;
+}
+.gear_cage h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.gear_cage h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.gear_cage p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 514px;
+    margin-bottom: 20px;
+}
+.gear_cage a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 5px 10px 5px 4px;
+    border-radius: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.gear_cage a::before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 6px;
+    display: inline-block;
+}
+.tools .by_image{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 50%;
+    height: 100%;
+    background-image: url("../images/IMAGE14.jpg");
+    background-size: cover;
+}
+.bottom_icons{
+    position: absolute;
+    right: 41px;
+    bottom: 40px;
+    list-style: none;
+    display: flex;
+}
+.bottom_icons li{
+    margin-left: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.bottom_icons li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/IMAGE_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -6px;
+}
+.bottom_icons li:nth-child(2):before{
+    background-image: url("../images/IMAGE_2.svg");
+}
+.bottom_icons li:nth-child(3):before{
+    background-image: url("../images/IMAGE_3.svg");
+    width: 32px;
+}
+.bottom_icons li:nth-child(4):before{
+    background-image: url("../images/IMAGE_4.svg");
+    width: 10px;
+}
