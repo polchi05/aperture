@@ -488,8 +488,106 @@ footer{
     padding-bottom: 100px;
     background-color: black;
 }
-.down_container{
+footer .container{
     max-width: 1168px;
     margin: auto;
     display: flex;
+    justify-content: space-between;
+}
+footer .container:nth-child(2){
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    padding: 40px 0;
+}
+footer .right_first{
+    display: flex;
+}
+footer .left_first a img{
+    margin-bottom: 20px;
+}
+footer .left_first p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+footer .left_first p a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+    text-decoration: none;
+}
+footer .right_first ul{
+    min-width: 220px;
+    margin-left: 15px;
+    margin-bottom: 26px;
+}
+footer .right_first ul li:first-of-type{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+footer .right_first ul li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+footer .right_first ul li a{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .left_first h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+footer form{
+    width: 100%;
+    max-width: 458px;
+    background: #F9FAFB;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6px;
+    box-sizing: border-box;
+    height: 52px;
+}
+footer form input{
+    width: 80%;
+    border: none;
+    background-color: transparent;
+    line-height: 52px;
+}
+footer form button{
+    background: #000000;
+    border-radius: 11px;
+    border: none;
+    width: 63px;
+    height: 30px;
+    cursor: pointer;
+}
+footer .container:last-of-type{
+    padding-top: 56px;
+}
+#f_blanks{
+    display: inline-flex;
+}
+#f_blanks li{
+    margin-left: 20px;
+}
+#f_blanks li a img{
+    width: 100%;
+    display: block;
 }
