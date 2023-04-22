@@ -373,6 +373,10 @@ header nav ul li:last-of-type a{
     max-width: 1168px;
     margin: auto;
 }
+.past_clients .description a{
+    max-width: 128px;
+    display: inline-block;
+}
 .past_clients .description a img{
     width: 100%;
     display: block;
@@ -593,3 +597,54 @@ footer .container:last-of-type{
     display: block;
 }
 
+/*FAQ*/
+
+.faq{
+    background-color: black;
+    padding: 50px 0;
+}
+.faq .container{
+    max-width: 1168px;
+    margin: auto;
+}
+.faq .ui-accordion .ui-accordion-header{
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    border-radius: 0;
+    padding: 20px;
+}
+.faq .ui-accordion .ui-accordion-content{
+background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    border-radius: 0;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active {
+    border-bottom: none;
+}
+.faq .ui-accordion .ui-accordion-content.ui-accordion-content-active{
+    border-top: none;
+}
+.faq .ui-accordion .ui-icon {
+    background-image: none;
+    text-indent: 0;
+    background-position: inherit;
+    width: 20px;
+    height: 20px;
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    right: 20px;
+    top: 23px;
+}
+
+.faq .ui-accordion .ui-icon:before {
+    content: "\f054";
+    color: white;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon {
+    transform: rotate(90deg);
+    display: inline-block;
+    transition: 0.3s;
+}
