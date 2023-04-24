@@ -6,6 +6,7 @@ header{
     background-color: #181818;
     padding-top: 24px;
     padding-bottom: 24px;
+    position: relative;
 }
 header .container{
     max-width: 1200px;
@@ -16,6 +17,10 @@ header .container{
     justify-content: space-between;
     display: flex;
     align-items: center;
+}
+header .logo{
+    position: relative;
+    z-index: 99;
 }
 header nav ul{
     list-style: none;
