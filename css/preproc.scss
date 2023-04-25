@@ -6,7 +6,13 @@
 
 $main_font:'Poppins', sans-serif;
 $main_color: #181818;
-$white_color: #FFFFFF
+$white_color: #FFFFFF;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 
 header{
   background-color: $main_color;
