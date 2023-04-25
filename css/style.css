@@ -2,58 +2,9 @@
     padding: 0;
     margin: 0;
 }
-header{
-    background-color: #181818;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    position: relative;
-}
-header .container{
-    max-width: 1200px;
-    margin: auto;
-    padding-left: 32px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-}
 header .logo{
     position: relative;
     z-index: 99;
-}
-header nav ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-header nav ul li{
-    margin-left: 32px;
-}
-header nav ul li a{
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    color: #FFFFFF;
-}
-header nav ul li:first-of-type{
-    margin-right: 24px;
-}
-header nav ul li:first-of-type a{
-    font-size:13px;
-}
-header nav ul li:last-of-type{
-    margin-left: 31px;
-}
-header nav ul li:last-of-type a{
-    background: #FFFFFF;
-    border-radius: 14px;
-    padding: 11px 20px;
-    font-size: 16px;
-    color: black;
-    animation: bolt infinite 5s;
 }
 
 /*main banner*/

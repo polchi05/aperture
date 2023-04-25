@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "mobile_menu.css";
+@import "style.css";
+
+$main_font:'Poppins', sans-serif;
+$main_color: #181818;
+$white_color: #FFFFFF
+
+header{
+  background-color: $main_color;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  position: relative;
+  .container {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 32px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  }
+}
+nav{
+  ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    li {
+      margin-left: 32px;
+      &:first-of-type{
+        margin-right: 24px;
+        a{
+          font-size:13px;
+        }
+      }
+      &:last-of-type{
+        margin-left: 31px;
+        a{
+          background: $white_color;
+          border-radius: 14px;
+          padding: 11px 20px;
+          font-size: 16px;
+          color: $main_color;
+          animation: bolt infinite 5s;
+        }
+      }
+      a {
+        text-decoration: none;
+        font-family: $main_font;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        color: $white_color;
+      }
+    }
+  }
+}
+header .logo{
+  position: relative;
+  z-index: 99;
+}
+
+/*main banner*/
+
+.main_banner{
+  background-image: url("../images/IMAGE.jpg");
+  background-size: cover;
+  height: calc(100vh - 83px);
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  padding-bottom: 71px;
+  box-sizing: border-box;
+  position: relative;
+}
+.main_banner article{
+  max-width: 580px;
+  text-align: center;
+  font-family: $main_font;
+}
+.main_banner article h3{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+.main_banner article h1{
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  color: $white_color;
+  margin-bottom: 18px;
+}
+.main_banner article p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+/*Sunset*/
+
+.sunset{
+  background-image: url("../images/IMAGE2.jpg");
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: right;
+  align-items:center;
+  padding-right: 62px;
+  box-sizing: border-box;
+  position: relative;
+}
+.sunset article{
+  max-width: 298px;
+  font-family: $main_font;
+  text-align: left;
+}
+.sunset article h4{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $white_color;
+}
+.sunset article p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+/*Leaves*/
+
+.leaves{
+  background-image: url("../images/IMAGE3.jpg");
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: right;
+  align-items:center;
+  padding-right: 87px;
+  box-sizing: border-box;
+  position: relative;
+}
+.leaves article{
+  max-width: 273px;
+  font-family: $main_font;
+  text-align: left;
+}
+.leaves article h5{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $white_color;
+}
+.leaves article p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
